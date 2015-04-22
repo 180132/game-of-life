@@ -105,9 +105,9 @@ public class WhenTheUserSpawnsTheNextGeneration {
         player.chooses_to_start_a_new_game();
         player.clicks_on_cell_at(0, 0);
         player.clicks_on_cell_at(0, 1);
-        player.clicks_on_cell_at(1, 0);
-        player.clicks_on_cell_at(1, 1);
-        player.clicks_on_cell_at(1, 2);
+        player.clicks_on_cell_at(0, 0);
+        player.clicks_on_cell_at(0, 1);
+        player.clicks_on_cell_at(0, 2);
         player.starts_simulation();
         player.continues_simulation();
         player.continues_simulation();

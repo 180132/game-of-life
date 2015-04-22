@@ -44,9 +44,9 @@ public class WhenTheUserEntersAnInitialGrid {
 
     @Test
     public void userShouldBeAbleToSeedAnEmptyGridOnTheNewGamePage() {
-        player.opens_home_page();
+        //player.opens_home_page();
         //player.chooses_to_start_a_new_game();
-        player.starts_simulation();
+        //player.starts_simulation();
         player.should_see_grid(EMPTY_GRID);
     }
 

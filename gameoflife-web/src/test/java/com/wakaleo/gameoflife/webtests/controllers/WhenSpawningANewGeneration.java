@@ -18,7 +18,7 @@ public class WhenSpawningANewGeneration {
         request.setAttribute("rows", "3");
         request.setAttribute("columns", "3");
         GameController controller = new GameController();
-        ModelAndView nextView = controller.nextGeneration(2, 3, request);
+        ModelAndView nextView = controller.nextGeneration(3, 3, request);
 
         assertThat(nextView.getModel().get("universe"), is(not(nullValue())));
     }

@@ -32,7 +32,8 @@ public class WhenCreatingANewGame {
     public void whenTheUserCreatesTheFirstGenerationAnEmptyUniverseShouldBeAddedToTheSession() {
         HttpServletRequest request = mock(HttpServletRequest.class);
         ModelAndView homeView = controller.firstGeneration(5, 5, request);
-        assertThat(homeView.getModel().get("universe"), is(not(nullValue())));
+        assertThat(homeView.getModel().get("notuniverse"), is(not(nullValue())));
+        
     }
 
     @Test

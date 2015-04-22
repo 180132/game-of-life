@@ -20,7 +20,7 @@ public class WhenDisplayingTheHomePage {
     public void theIndexUrlShouldDisplayTheHomePage() {
         HomePageController controller = new HomePageController();
         ModelAndView homeView = controller.index();
-        assertThat(homeView.getViewName(), is("house"));
+        assertThat(homeView.getViewName(), is("home"));
     }
 }	
 
